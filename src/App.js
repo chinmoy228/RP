@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import { Box } from '@material-ui/core';
-import { fetchData } from './service/api';
+import { fetchData } from './service/Api';
 import Characters  from './components/Characters';
 
 const App = () => {
